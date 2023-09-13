@@ -80,68 +80,37 @@ Creating API documentation involves providing detailed information about each AP
 
 # API Documentation
 # Authentication Endpoints
-1. Sign Up
-Endpoint: {{URL}}/api/auth/signUp
-HTTP Method: POST
-Description: Create a new user account.
-Request Parameters:
-username (string): User's desired username.
-password (string): User's password.
-Additional user information if required.
-
-
-2. Login
-Endpoint: {{URL}}/api/auth/login
-HTTP Method: POST
-Description: Authenticate a user and obtain an access token.
-Request Parameters:
-username (string): User's username.
-password (string): User's password.
-
-3. Refresh Token
-Endpoint: {{URL}}/api/auth/refresh-token
-HTTP Method: POST
-Description: Refresh an expired access token using a valid refresh token.
-Request Parameters:
-refresh_token (string): A valid refresh token.
-
-
 # Report Endpoints
-4. Create a Report
-Endpoint: {{URL}}/api/v1/report
-HTTP Method: POST
-Description: Create a new report.
-Request Parameters:
-Report data in the request body as needed.
 
+4. **Create a Report**
+   - **Endpoint**: `{{URL}}/api/v1/report`
+   - **HTTP Method**: POST
+   - **Description**: Create a new report.
+   - **Request Parameters**: Report data in the request body as needed.
 
-5. Get All Reports
-Endpoint: {{URL}}/api/v1/report
-HTTP Method: GET
-Description: Retrieve a list of all reports.
+5. **Get All Reports**
+   - **Endpoint**: `{{URL}}/api/v1/report`
+   - **HTTP Method**: GET
+   - **Description**: Retrieve a list of all reports.
 
-6. Update a Report
-Endpoint: {{URL}}/api/v1/report/{report_id}
-HTTP Method: PUT
-Description: Update an existing report.
-Request Parameters:
-report_id (string): The unique ID of the report to be updated.
-Report data in the request body as needed.
+6. **Update a Report**
+   - **Endpoint**: `{{URL}}/api/v1/report/{report_id}`
+   - **HTTP Method**: PUT
+   - **Description**: Update an existing report.
+   - **Request Parameters**:
+     - `report_id` (string): The unique ID of the report to be updated.
+     - Report data in the request body as needed.
 
+7. **Get a Single Report**
+   - **Endpoint**: `{{URL}}/api/v1/report/{report_id}`
+   - **HTTP Method**: GET
+   - **Description**: Retrieve a single report by its unique ID.
+   - **Request Parameters**:
+     - `report_id` (string): The unique ID of the report to be retrieved.
 
-7. Get a Single Report
-Endpoint: {{URL}}/api/v1/report/{report_id}
-HTTP Method: GET
-Description: Retrieve a single report by its unique ID.
-Request Parameters:
-report_id (string): The unique ID of the report to be retrieved.
-
-
-8. Delete a Report
-Endpoint: {{URL}}/api/v1/report/{report_id}
-HTTP Method: DELETE
-Description: Delete a report by its unique ID.
-Request Parameters:
-report_id (string): The unique ID of the report to be deleted.
-
-
+8. **Delete a Report**
+   - **Endpoint**: `{{URL}}/api/v1/report/{report_id}`
+   - **HTTP Method**: DELETE
+   - **Description**: Delete a report by its unique ID.
+   - **Request Parameters**:
+     - `report_id` (string): The unique ID of the report to be deleted.
