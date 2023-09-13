@@ -4,13 +4,13 @@ This project is a Report Management System developed using the MERN (MongoDB, Ex
 
 ## .env files
 
-DATABASE=mongodb+srv://golamanik192:nodejs1234@cluster0.bnbngdt.mongodb.net/?retryWrites=true&w=majority
-NODE_ENV=production
-JWT_SECRET=anik
-REFRESH_JWT_SECRET=anik
-JWT_EXPIRES_IN=1h
-REFRESH_JWT_EXPIRES_IN=50d
-JWT_COOKIE_EXPIRES_IN=50d
+- DATABASE=mongodb+srv://golamanik192:nodejs1234@cluster0.bnbngdt.mongodb.net/?retryWrites=true&w=majority
+- NODE_ENV=production
+- JWT_SECRET=anik
+- REFRESH_JWT_SECRET=anik
+- JWT_EXPIRES_IN=1h
+- REFRESH_JWT_EXPIRES_IN=50d
+- JWT_COOKIE_EXPIRES_IN=50d
 
 ### Installation
 
